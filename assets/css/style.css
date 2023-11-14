@@ -952,7 +952,7 @@ textarea.is-invalid {
   display: inline-block;
   padding: 0;
   background-color: var(--smoke-color);
-  color: var(--title-color);
+  color: var(--theme-color);
   position: absolute;
   top: 50%;
   border: 1px solid var(--border-color);
@@ -4387,11 +4387,11 @@ ol.wp-block-rss {
 
 .footer-widget.widget_meta a:hover, .footer-widget.widget_pages a:hover, .footer-widget.widget_archive a:hover, .footer-widget.widget_categories a:hover, .footer-widget.widget_nav_menu a:hover {
   background-color: transparent;
-  color: var(--theme-color);
+  color: var(--theme-color3);
 }
 
 .footer-widget.widget_meta a:hover:before, .footer-widget.widget_pages a:hover:before, .footer-widget.widget_archive a:hover:before, .footer-widget.widget_categories a:hover:before, .footer-widget.widget_nav_menu a:hover:before {
-  color: var(--theme-color);
+  color: var(--theme-color3);
 }
 
 .footer-widget.widget_meta li > span, .footer-widget.widget_pages li > span, .footer-widget.widget_archive li > span, .footer-widget.widget_categories li > span, .footer-widget.widget_nav_menu li > span {
@@ -4935,7 +4935,7 @@ ol.wp-block-rss {
 .header-layout1 .header-logo {
   position: relative;
   z-index: 2;
-  width: 290px;
+  width: 250px;
 }
 
 .header-layout1 .themeholy-menu-toggle {
@@ -5728,13 +5728,13 @@ ol.wp-block-rss {
 
 .footer-inner .footer-left {
   padding-right: var(--gap-x);
-  border-right: 1px solid var(--border-color);
+  border-right: 1px solid #231212;
   padding-top: 40px;
   padding-bottom: 50px;
 }
 
 .footer-inner .footer-top {
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid #231212;
   padding: var(--gap-y) 0 var(--gap-y) var(--gap-x);
 }
 
@@ -5828,7 +5828,9 @@ ol.wp-block-rss {
     padding-bottom: 5px;
   }
   .footer-inner .footer-left .about-logo {
-    max-width: 550px;
+    max-width: 150px;
+    margin: auto;
+    margin-bottom: 20px;
   }
   .footer-inner .footer-left .widget {
     max-width: 550px;
@@ -7036,8 +7038,8 @@ ul.comment-list:has(> .themeholy-comment-item ~ .themeholy-comment-item):first-c
 .hero-style1 {
   position: relative;
   z-index: 6;
-  padding: 203px 0 203px 0;
-  max-width: 730px;
+  padding: 80px 0 60px 0;
+  
 }
 
 .hero-style1 .hero-title {

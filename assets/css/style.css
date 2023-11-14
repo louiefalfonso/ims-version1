@@ -1798,7 +1798,7 @@ textarea.is-invalid {
   font-size: 20px;
   font-weight: 500;
   font-family: var(--title-font);
-  color: var(--theme-color);
+  color: var(--white-color);
   margin-bottom: 30px;
   text-transform: capitalize;
   line-height: 24px;
@@ -4447,6 +4447,7 @@ ol.wp-block-rss {
 
 .about-logo {
   margin-bottom: 15px;
+  max-width: 200px;
 }
 
 .themeholy-widget-about .about-logo {
@@ -4934,7 +4935,7 @@ ol.wp-block-rss {
 .header-layout1 .header-logo {
   position: relative;
   z-index: 2;
-  width: 250px;
+  width: 290px;
 }
 
 .header-layout1 .themeholy-menu-toggle {
@@ -5728,7 +5729,7 @@ ol.wp-block-rss {
 .footer-inner .footer-left {
   padding-right: var(--gap-x);
   border-right: 1px solid var(--border-color);
-  padding-top: 105px;
+  padding-top: 40px;
   padding-bottom: 50px;
 }
 

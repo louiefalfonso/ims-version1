@@ -258,7 +258,7 @@ h5,
 .h6,
 h6 {
   font-family: var(--title-font);
-  color: var(--title-color);
+  color: var(--theme-color3);
   text-transform: none;
   font-weight: 700;
   line-height: 1.4;
@@ -1499,7 +1499,7 @@ textarea.is-invalid {
 }
 
 .themeholy-btn.style2:hover {
-  color: var(--title-color);
+  color: var(--theme-color);
   border-color: var(--white-color);
 }
 
@@ -1508,7 +1508,7 @@ textarea.is-invalid {
 }
 
 .themeholy-btn.style3:hover {
-  color: var(--title-color);
+  color: var(--theme-color);
 }
 
 .themeholy-btn.style3:hover:before, .themeholy-btn.style3:hover:after {
@@ -1798,7 +1798,7 @@ textarea.is-invalid {
   font-size: 20px;
   font-weight: 500;
   font-family: var(--title-font);
-  color: var(--white-color);
+  color: var(--theme-color);
   margin-bottom: 30px;
   text-transform: capitalize;
   line-height: 24px;
@@ -2257,7 +2257,7 @@ hr.title-line {
 }
 
 .bg-theme2 {
-  background-color: var(--theme-color2) !important;
+  background-color: var(--theme-color3) !important;
 }
 
 .bg-smoke {
@@ -4447,7 +4447,7 @@ ol.wp-block-rss {
 
 .about-logo {
   margin-bottom: 15px;
-  max-width: 200px;
+  max-width: 150px;
 }
 
 .themeholy-widget-about .about-logo {
@@ -7053,6 +7053,7 @@ ul.comment-list:has(> .themeholy-comment-item ~ .themeholy-comment-item):first-c
 
 .hero-style1 .sub-title {
   margin-bottom: 15px;
+  color: var(--white-color);
 }
 
 /* Extra large devices */
@@ -10729,6 +10730,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .img-box1 .img1 img {
   width: 100%;
+  border: 5px solid var(--theme-color);
 }
 
 .img-box1 .img1:before {
@@ -10748,7 +10750,7 @@ span.select2-selection.select2-selection--single:focus {
   position: absolute;
   bottom: 0px;
   right: 0;
-  border: 10px solid var(--border-color);
+  border: 5px solid var(--theme-color3);
   z-index: 3;
 }
 
@@ -12288,7 +12290,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .checklist li > i {
-  color: var(--theme-color);
+  color: var(--theme-color3);
 }
 
 .checklist li:not(:last-child) {
@@ -12318,7 +12320,7 @@ span.select2-selection.select2-selection--single:focus {
 .checklist.style2 li {
   font-size: 20px;
   font-weight: 600;
-  color: var(--title-color);
+  color: var(--theme-color);
   font-family: var(--title-font);
   border: 1px solid var(--border-color);
   gap: 10px;
@@ -12870,7 +12872,7 @@ span.select2-selection.select2-selection--single:focus {
   font-weight: 700;
   font-family: var(--title-font);
   border: 0;
-  color: var(--title-color);
+  color: var(--theme-color3);
   background-color: var(--smoke-color);
   border-radius: 0;
   padding: 12px 45px 12px 25px;
@@ -12942,11 +12944,11 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .accordion-card .show .accordion-body {
-  border-top: 1px solid var(--border-color);
+  border-top: 1px solid var(--smoke-color);
 }
 
 .accordion-card:has(.show) {
-  border-color: var(--theme-color);
+  border-color: var(--smoke-color);
 }
 
 .accordion-card.style2 {
